@@ -22,5 +22,5 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 shop-*.tar
 
-# Temporary files, for example, from tests.
-/tmp/
+# Elixir Language Server
+/.elixir_ls
