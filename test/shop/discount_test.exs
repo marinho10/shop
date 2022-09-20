@@ -5,7 +5,7 @@ defmodule Shop.DiscountTest do
 
   alias Shop.{Checkout, Discount, Discounts.Bulk, Discounts.XForY, Product}
 
-  describe "Task scenario" do
+  describe "scenario one" do
     setup do
       coffee = Product.new("CF1", "Coffee", 1123)
       strawberries = Product.new("SR1", "Strawberries", 500)
